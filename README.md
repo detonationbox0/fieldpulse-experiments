@@ -1,8 +1,41 @@
-# React + Vite
+# FieldPulse Experiments
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Getting Started
 
-Currently, two official plugins are available:
+Follow these steps to set up and run the project locally.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- [Node.js](https://nodejs.org/) (version 14 or higher)
+- [npm](https://www.npmjs.com/)
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```sh
+    git clone <repository-url>
+    cd fieldpulse-experiments
+    ```
+
+2. **Install dependencies:**
+
+    ```sh
+    npm install
+    ```
+
+3. **Create a [.env](http://_vscodecontentref_/2) file in the root directory with the following content:**
+
+    ```env
+    VITE_BASEURL=api_base_url_here
+    VITE_APIKEY=api_key_here
+    ```
+
+### Running the Development Server
+
+Start the development server with the following command:
+
+```sh
+npm run dev
+```
